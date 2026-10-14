@@ -1,7 +1,5 @@
 import pathlib
 
-from numpy import matrix
-
 # 1. Parsing the System of Equations
 def load_system(path: pathlib.Path) -> tuple[list[list[float]], list[float]]:
     A: list[list[float]] = []
